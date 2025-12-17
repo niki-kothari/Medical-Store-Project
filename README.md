@@ -1,2 +1,97 @@
-# Medical-Store-Project
-This repository contains a simple basic medical store project developed in python (console based without GUI) having item categories, medical items and customers details stored in MySQL database.
+# 🏥 Medical Store Management System
+
+A simple **Medical Store Management System** designed to manage medicines, suppliers, customers, and sales efficiently.  
+This project is suitable for learning **database management**, **CRUD operations**, and **basic backend logic** using MySQL.
+
+---
+
+## 📌 Features
+
+- Add, update, delete medical items
+- Manage medicine stock
+- Supplier management
+- Customer details management
+- Billing and sales records
+- Search medicines by name or ID
+- Automatic stock update after sales
+
+---
+
+## 🛠️ Technologies Used
+
+- Programming Language: Python
+- Database: MySQL
+- Interface: Console / Tkinter / Web (Flask / Django) *(based on implementation)*
+- Tools: MySQL Workbench, VS Code
+
+---
+
+## 🗄️ Database Structure
+
+Main tables used:
+- `medicines`
+- `suppliers`
+- `customers`
+- `sales`
+- `users` (optional)
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/medical-store-management.git
+2. Import the database:
+
+- Open MySQL Workbench
+
+- Import medical_store.sql
+
+3. Configure database connection:
+
+    Update MySQL username, password, and database name in the code
+
+4. Run the application:
+
+    main.py
+
+## 📂 Project Structure
+medical-store-management/
+│
+├── database/
+│   └── medical_store.sql
+├── src/
+│   ├── medicine.py
+│   ├── supplier.py
+│   ├── sales.py
+│   └── main.py
+├── README.md
+
+## 🎯 Purpose of the Project
+
+Academic mini project
+
+Practice MySQL database concepts
+
+Learn CRUD operations
+
+Understand real-world pharmacy workflows
+
+## 📸 Screenshots
+
+(Add screenshots of your application here)
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repository and submit pull requests.
+
+## 📄 License
+
+This project is for educational purposes only.
+
+## 👨‍💻 Author
+
+Your Name
+GitHub: https://github.com/your-username
