@@ -11,8 +11,7 @@ This project is suitable for learning **database management**, **CRUD operations
 - Manage medicine stock
 - Supplier management
 - Customer details management
-- Billing and sales records
-- Search medicines by name or ID
+- Search items by name or ID
 - Automatic stock update after sales
 
 ---
@@ -21,7 +20,7 @@ This project is suitable for learning **database management**, **CRUD operations
 
 - Programming Language: Python
 - Database: MySQL
-- Interface: Console / Tkinter / Web (Flask / Django) *(based on implementation)*
+- Interface: Console
 - Tools: MySQL Workbench, VS Code
 
 ---
@@ -29,11 +28,10 @@ This project is suitable for learning **database management**, **CRUD operations
 ## 🗄️ Database Structure
 
 Main tables used:
-- `medicines`
+- `items`
 - `suppliers`
 - `customers`
-- `sales`
-- `users` (optional)
+- `category`
 
 ---
 
@@ -42,11 +40,12 @@ Main tables used:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/medical-store-management.git
+   
 2. Import the database:
 
 - Open MySQL Workbench
 
-- Import medical_store.sql
+- Import medical_store_db.sql
 
 3. Configure database connection:
 
@@ -57,16 +56,16 @@ Main tables used:
     main.py
 
 ## 📂 Project Structure
-medical-store-management/
-│
-├── database/
-│   └── medical_store.sql
-├── src/
-│   ├── medicine.py
-│   ├── supplier.py
-│   ├── sales.py
-│   └── main.py
-├── README.md
+   medical-store-management/
+   │
+   ├── database/
+   │   └── medical_store_db.sql
+   ├── src/
+   │   ├── items.py
+   │   ├── category.py
+   │   ├── customers.py
+   │   └── main.py
+   ├── README.md
 
 ## 🎯 Purpose of the Project
 
@@ -80,7 +79,7 @@ Understand real-world pharmacy workflows
 
 ## 📸 Screenshots
 
-(Add screenshots of your application here)
+
 
 ## 🤝 Contributing
 
@@ -93,5 +92,5 @@ This project is for educational purposes only.
 
 ## 👨‍💻 Author
 
-Your Name
-GitHub: https://github.com/your-username
+Niki Kothari
+GitHub: https://github.com/niki-kothari
