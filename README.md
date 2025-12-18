@@ -5,16 +5,6 @@ This project is suitable for learning **database management**, **CRUD operations
 
 ---
 
-## 📌 Features
-
-- Add, update, delete medical items
-- Item category management
-- Customer details management
-- Supplier management
-- Search by different fields
-
----
-
 ## 🛠️ Technologies Used
 
 - Programming Language: Python
@@ -24,35 +14,27 @@ This project is suitable for learning **database management**, **CRUD operations
 
 ---
 
-## 🗄️ Database Structure
+## 🎯 Purpose of the Project
 
-Main tables used:
-- `items`
-- `customers`
-- `category`
-- `suppliers`
+Academic mini project
+
+Practice MySQL database concepts
+
+Learn CRUD operations
+
+Understand basic real-world pharmacy workflows
 
 ---
 
-## 🚀 How to Run the Project
+## 📌 Features
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/niki-kothari/Medical-Store-Project.git
-   
-2. Import the database:
+- Add, update, delete medical items
+- Item category management
+- Customer details management
+- Supplier management
+- Search by different fields
 
-- Open MySQL Workbench
-
-- Import apollomedicaldb.sql
-
-3. Configure database connection:
-
-    Update MySQL host, username, password, and database name in the code
-
-4. Run the application:
-
-    MainFile.py
+---
 
 ## 📂 Project Structure
       Medical-Store-Project/
@@ -68,15 +50,17 @@ Main tables used:
       │   └── MainFile.py
       ├── README.md
 
-## 🎯 Purpose of the Project
+---
 
-Academic mini project
+## 🗄️ Database Structure
 
-Practice MySQL database concepts
+Main tables used:
+- `items`
+- `customers`
+- `category`
+- `suppliers`
 
-Learn CRUD operations
-
-Understand basic real-world pharmacy workflows
+---
 
 ## 📚 Explanation
    **Module : Item Category** <br>
@@ -87,7 +71,9 @@ Understand basic real-world pharmacy workflows
 
    **Module : Customer** <br>
       This module have the CRUD functions on the customer table having details like customer ID, name, address, contact no, etc.
-      
+
+---
+
 ## ✍️ Few Code Snippets
    **Item Category Module**
       <h5> Add Category </h5>
@@ -185,6 +171,8 @@ Understand basic real-world pharmacy workflows
            print (f'\tCustomer Mobile No.  : {cust[8]}')
            print (f'\tCustomer Date Of Birth : {cust[9]}')
 
+---
+
 ## 📸 Screenshots
    **Display Item Category Screenshot**
       <br><img src="images/category.png" alt="Console based Category display screenshot of the application">
@@ -194,15 +182,43 @@ Understand basic real-world pharmacy workflows
    <br><br>
    **Add Customer Screenshot**
       <br><img src="images/customer.png" alt="Console based Category display screenshot of the application">
+      
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/niki-kothari/Medical-Store-Project.git
    
+2. Import the database:
+
+- Open MySQL Workbench
+
+- Import apollomedicaldb.sql
+
+3. Configure database connection:
+
+    Update MySQL host, username, password, and database name in the code
+
+4. Run the application:
+
+    MainFile.py
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome!
 Feel free to fork this repository and submit pull requests.
 
+---
+
 ## 📄 License
 
 This project is for educational purposes only.
+
+---
 
 ## 👨‍💻 Author
 
