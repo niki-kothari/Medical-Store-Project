@@ -21,7 +21,7 @@ This project is suitable for learning **database management**, **CRUD operations
 - Programming Language: Python
 - Database: MySQL
 - Interface: Console
-- Tools: MySQL Workbench, VS Code
+- Tools: MySQL Workbench, Visual Studio Code
 
 ---
 
@@ -56,16 +56,16 @@ Main tables used:
     main.py
 
 ## 📂 Project Structure
-   medical-store-management/
-   │
-   ├── database/
-   │   └── medical_store_db.sql
-   ├── src/
-   │   ├── items.py
-   │   ├── category.py
-   │   ├── customers.py
-   │   └── main.py
-   ├── README.md
+      Medical-Store-Project/
+      │
+      ├── database/
+      │   └── medical_store_db.sql
+      ├── src/
+      │   ├── items.py
+      │   ├── category.py
+      │   ├── customers.py
+      │   └── main.py
+      ├── README.md
 
 ## 🎯 Purpose of the Project
 
@@ -75,8 +75,18 @@ Practice MySQL database concepts
 
 Learn CRUD operations
 
-Understand real-world pharmacy workflows
+Understand basic real-world pharmacy workflows
 
+## 📚 Explanation
+   **Module : Item Category** <br>
+      This module have the CRUD functions on the category table having details like category ID, Category type and its description.
+
+   **Module : Items** <br>
+      This module have the CRUD functions on the item table having details like item ID, name, category, rate, quantity, manufacturing date, expiry date, supplier, etc.
+
+   **Module : Customer** <br>
+      This module have the CRUD functions on the customer table having details like customer ID, name, address, contact no, etc.
+      
 ## 📸 Screenshots
 
 
